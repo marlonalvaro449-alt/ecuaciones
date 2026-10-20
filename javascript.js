@@ -1,4 +1,5 @@
 function calcular() {
+    
     // 1. Obtener los valores de las cajas de texto
     let a = parseFloat(document.getElementById("valA").value);
     let b = parseFloat(document.getElementById("valB").value);
