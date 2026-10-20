@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecuación de Segundo Grado</title>
+</head>
+<body>
+
+    <h1>Ecuación General de Segundo Grado</h1>
+
+    <form id="formulario">
+        <div>
+            <label for="valA">Ingrese A:</label>
+            <input type="number" id="valA" step="any" required>
+        </div>
+        <br>
+        <div>
+            <label for="valB">Ingrese B:</label>
+            <input type="number" id="valB" step="any" required>
+        </div>
+        <br>
+        <div>
+            <label for="valC">Ingrese C:</label>
+            <input type="number" id="valC" step="any" required>
+        </div>
+        <br>
+        <!-- Al hacer clic ejecuta la función calcular() -->
+        <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+
+    <br>
+
+    <fieldset>
+        <legend>Mostrar respuesta</legend>
+        <div id="respuesta">Esperando datos...</div>
+    </fieldset>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
